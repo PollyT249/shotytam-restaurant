@@ -1,6 +1,6 @@
 import bg from "../assets/bg.png";
 import chef from "../assets/chef.png";
-import G from "../assets/G.png";
+import S from "../assets/S.png";
 import gallery01 from "../assets/gallery01.png";
 import gallery02 from "../assets/gallery02.png";
 import gallery03 from "../assets/gallery03.png";
@@ -19,13 +19,12 @@ import award03 from "../assets/award03.png";
 import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
-import gericht from "../assets/gericht.png";
 import shotytam from "../assets/shotytam.png";
 
 export default {
   bg,
   chef,
-  G,
+  S,
   gallery01,
   gallery02,
   gallery03,
@@ -44,6 +43,5 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
   shotytam,
 };
