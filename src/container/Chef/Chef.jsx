@@ -17,14 +17,15 @@ const Chef = () => (
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
+            Food is more than taste — it’s memory, culture, and connection.
           </p>
         </div>
         <p className="p__opensans">
           {" "}
-          auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-          Nulla scelerisque scelerisque congue ac consequat, aliquam molestie
-          lectus eu. Congue iaculis integer curabitur semper sit nunc.{" "}
+          Cooking is my way of telling stories. Every plate carries a piece of
+          tradition, a memory from home, and a promise to create something
+          unforgettable for our guests. Every dish we serve is a reflection of
+          our heritage and our passion for hospitality.{" "}
         </p>
       </div>
 

@@ -17,9 +17,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+          Founded with a love for Ukrainian cuisine, we strive to share our
+          heritage through food that feels both comforting and refined. Every
+          plate tells a story of tradition, culture, and care.
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -38,9 +38,10 @@ const AboutUs = () => (
           className="spoon__img rotate"
         />
         <p className="p__opensans">
-          Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-          odio nec aliquet.
+          From humble family recipes passed down through generations to
+          innovative modern dishes, our story is rooted in tradition yet open to
+          new flavours. We honour the past while embracing the future of
+          Ukrainian cuisine.
         </p>
         <button type="button" className="custom__button">
           Know More
