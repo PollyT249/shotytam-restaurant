@@ -14,7 +14,7 @@ const FindUs = () => (
         <p className="p__opensans">Ukraine, Kyiv, Tarasa Shevchenko St. 130</p>
         <p
           className="p__cormorant"
-          style={{ color: "#DCCA87", margin: "2rem 0" }}
+          style={{ color: "#d45c58ff", margin: "2rem 0" }}
         >
           Opening Hours
         </p>
@@ -26,12 +26,22 @@ const FindUs = () => (
         className="custom__button"
         style={{ marginTop: "2rem" }}
       >
-        Visit Us
+        <a
+          href="https://maps.app.goo.gl/2bipNAdaqvdcPw9k6"
+          target="_blank"
+          title="The map of the restaurant"
+        >
+          Visit Us
+        </a>
       </button>
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.findus} alt="findus_img" />
+      <img
+        src={images.findus}
+        alt="findus_img"
+        style={{ border: "2px solid #545454" }}
+      />
     </div>
   </div>
 );

@@ -1,58 +1,58 @@
 import images from "./images";
 
-const wines = [
+const specials = [
   {
-    title: "Chapel Hill Shiraz",
-    price: "$56",
-    tags: "AU | Bottle",
+    title: "Borscht",
+    price: "$13",
+    tags: "Ukrainian beetroot soup with beef served with sour cream, croutons & salo",
   },
   {
-    title: "Catena Malbee",
-    price: "$59",
-    tags: "AU | Bottle",
+    title: "Salo bliss",
+    price: "$13",
+    tags: "Two types of salo (lard), pickles, baby potato with herbs & garlic",
   },
   {
-    title: "La Vieillw Rose",
-    price: "$44",
-    tags: "FR | 750 ml",
+    title: "Varenyky",
+    price: "$14",
+    tags: "Dumplings with potato, fried onions, sour cream",
   },
   {
-    title: "Rhino Pale Ale",
-    price: "$31",
-    tags: "CA | 750 ml",
+    title: "Varenyky with chicken and beef",
+    price: "$14",
+    tags: "Mini dumplings with chicken and beef, sour cream, vinegar",
   },
   {
-    title: "Irish Guinness",
-    price: "$26",
-    tags: "IE | 750 ml",
+    title: "Solianka",
+    price: "$13",
+    tags: "Rich meat soup, served with bread and sour cream",
   },
 ];
 
-const cocktails = [
+const mains = [
   {
-    title: "Aperol Sprtiz",
-    price: "$20",
-    tags: "Aperol | Villa Marchesi prosecco | soda | 30 ml",
+    title: "Banush",
+    price: "$14",
+    tags: "Polenta, cheese, crispy fried bacon",
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Chicken kyiv",
     price: "$16",
-    tags: "Dark rum | Ginger beer | Slice of lime",
+    tags: "Served with mush potato",
   },
   {
-    title: "Daiquiri",
-    price: "$10",
-    tags: "Rum | Citrus juice | Sugar",
+    title: "Sea dream",
+    price: "$16",
+    tags: "Grilled sea bass fillet with sautéed vegetables",
   },
   {
-    title: "Old Fashioned",
-    price: "$31",
-    tags: "Bourbon | Brown sugar | Angostura Bitters",
+    title: "Duck leg with cranbery souce",
+    price: "$17",
+    tags: "Served with mush potato",
   },
   {
-    title: "Negroni",
-    price: "$26",
-    tags: "Gin | Sweet Vermouth | Campari | Orange garnish",
+    title: "Deruny",
+    price: "$13",
+    tags: "Potato pancake, sour cream, mushrooms sauce",
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { specials, mains, awards };

@@ -42,6 +42,7 @@
 .app__specialMenu-menu_img img {
   width: 100%;
   height: auto;
+  border: 2px solid #545454;
 }
 
 .app__specialMenu_menu_items {

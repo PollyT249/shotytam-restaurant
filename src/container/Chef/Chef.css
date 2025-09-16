@@ -6,6 +6,10 @@
   margin-top: 5rem;
 }
 
+.app__chef-img {
+  border: 2px solid #545454;
+}
+
 .app__chef-content_quote {
   display: flex;
   justify-content: flex-start;

@@ -46,7 +46,9 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">&copy; 2025 ShoTyTam. All Rights reserved.</p>
+      <p className="p__opensans" style={{ color: "#d45c58ff" }}>
+        &copy; 2025 ShoTyTam. All Rights reserved.
+      </p>
     </div>
   </div>
 );

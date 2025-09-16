@@ -23,16 +23,17 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id="gallery">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p
           className="p__opensans"
-          style={{ color: "#AAAAAA", marginTop: "2rem" }}
+          style={{ color: "#DCCA87", marginTop: "2rem" }}
         >
           A taste for the eyes — explore moments from our kitchen and table.
         </p>
+        {/* The button should transfer to an actual Instagram page of the restaurant. */}
         <button type="button" className="custom__button">
           View More
         </button>

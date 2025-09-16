@@ -63,6 +63,7 @@
   object-fit: cover;
   opacity: 1;
   transition: 0.5s ease;
+  border: 1px solid #545454;
 }
 
 .app__gallery-images_card:hover img {

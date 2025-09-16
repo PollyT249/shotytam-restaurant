@@ -22,7 +22,7 @@ const AboutUs = () => (
           plate tells a story of tradition, culture, and care.
         </p>
         <button type="button" className="custom__button">
-          Know More
+          <a href="#video"> Know More </a>
         </button>
       </div>
 
@@ -44,7 +44,7 @@ const AboutUs = () => (
           Ukrainian cuisine.
         </p>
         <button type="button" className="custom__button">
-          Know More
+          <a href="#chef"> Know More </a>
         </button>
       </div>
     </div>
