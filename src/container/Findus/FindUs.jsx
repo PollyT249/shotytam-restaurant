@@ -30,6 +30,7 @@ const FindUs = () => (
           href="https://maps.app.goo.gl/2bipNAdaqvdcPw9k6"
           target="_blank"
           title="The map of the restaurant"
+          rel="noreferrer"
         >
           Visit Us
         </a>
