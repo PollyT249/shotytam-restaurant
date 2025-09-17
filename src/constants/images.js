@@ -22,7 +22,7 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import shotytam from "../assets/shotytam.png";
 
-export default {
+const images = {
   bg,
   chef,
   S,
@@ -47,3 +47,5 @@ export default {
   quote,
   shotytam,
 };
+
+export default images;

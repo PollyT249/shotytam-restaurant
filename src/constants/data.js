@@ -79,4 +79,6 @@ const awards = [
   },
 ];
 
-export default { specials, mains, awards };
+const data = { specials, mains, awards };
+
+export default data;
